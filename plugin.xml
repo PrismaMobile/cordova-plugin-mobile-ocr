@@ -39,7 +39,6 @@
     
   </platform>
 
-
   <platform name="ios">
   <config-file target="config.xml" parent="/*">
     <feature name="Textocr">
@@ -57,12 +56,8 @@
 <header-file src="src/ios/Textocr.h" target-dir="OcrPlugin"/>
 <source-file src="src/ios/Textocr.m" target-dir="OcrPlugin"/>
 
-<framework src="GoogleMobileVision/TextDetector" /> 
-<!--<framework src="GTMSessionFetcher" type="podspec" spec="~> 1.1.15"/>-->
-<!--<framework src="Protobuf" type="podspec" spec="~> 3.6.0"/>-->
-<!--<framework src="GoogleToolboxForMac" type="podspec" spec="~> 2.1.4"/>-->
+<podspec name="GoogleMobileVision/TextDetector" spec="~> 1.3.2" />
 
- 
 </platform>
 
 </plugin>
