@@ -53,7 +53,14 @@
 <header-file src="src/ios/Textocr.h" target-dir="OcrPlugin"/>
 <source-file src="src/ios/Textocr.m" target-dir="OcrPlugin"/>
 
-<podspec name="GoogleMobileVision/TextDetector" spec="~> 1.6.0" />
+<podspec>
+  <config>
+    <source url="https://github.com/CocoaPods/Specs.git" />
+  </config>
+  <pods>
+    <pod name="GoogleMobileVision/TextDetector" spec="~> 1.6.0" />
+  </pods>
+</podspec>
 
 </platform>
 
