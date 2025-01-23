@@ -54,12 +54,12 @@
 <source-file src="src/ios/Textocr.m" target-dir="OcrPlugin"/>
 
 <podspec>
-  <config>
-    <source url="https://github.com/CocoaPods/Specs.git" />
-  </config>
-  <pods>
-    <pod name="GoogleMobileVision/TextDetector" spec="~> 1.6.0" />
-  </pods>
+    <config>
+        <source url="https://cdn.cocoapods.org/" />
+    </config>
+    <pods use-frameworks="true">
+        <pod name="GoogleMobileVision/TextDetector" spec="~> 1.6.0" />
+    </pods>
 </podspec>
 
 </platform>
